@@ -1,0 +1,25 @@
+#version 330 core
+
+in vec3 passedVertexCoord;
+in vec3 passedNormalCoord;
+in vec2 passedTextureCoord;
+
+out vec4 fragColor;
+
+uniform sampler2D texture0;
+
+uniform vec3 lightPos;
+uniform vec3 cameraPos;
+
+void main()
+{
+	vec3 normNormalCoord = normalize(passedNormalCoord);
+	vec3 lightDir = normalize(lightPos - passedVertexCoord);
+	vec3 viewDir = normalize(cameraPos - passedVertexCoord);
+	vec3 reflectDir = reflect(-lightDir, normNormalCoord);
+
+	//vec3 lightEffect = max(dot(normNormalCoord, lightDir), 0.1) * vec3(1.0, 1.0, 1.0);
+	vec3 lightEffect = (max(dot(normNormalCoord, lightDir), 0.1) + 0.5 * pow(max(dot(viewDir, reflectDir), 0.0), 2)) * vec3(1.0, 1.0, 1.0);
+
+	fragColor = vec4(lightEffect * vec3(texture(texture0, passedTextureCoord)), 1.0);
+}

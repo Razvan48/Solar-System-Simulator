@@ -1,0 +1,28 @@
+﻿  main.cpp
+C:\Users\razvan\Desktop\Solar System Simulator\GameEngine3D\GameEngine3D.h(125,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\razvan\Desktop\Solar System Simulator\GameEngine3D\GameEngine3D.h(174,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\razvan\Desktop\Solar System Simulator\GameEngine3D\GameEngine3D.h(268,28): warning C4244: 'argument': conversion from 'double' to 'GLclampf', possible loss of data
+C:\Users\razvan\Desktop\Solar System Simulator\GameEngine3D\GameEngine3D.h(268,21): warning C4244: 'argument': conversion from 'double' to 'GLclampf', possible loss of data
+C:\Users\razvan\Desktop\Solar System Simulator\GameEngine3D\GameEngine3D.h(268,16): warning C4244: 'argument': conversion from 'double' to 'GLclampf', possible loss of data
+C:\Users\razvan\Desktop\Solar System Simulator\GameEngine3D\GameEngine3D.h(273,34): warning C4244: 'argument': conversion from 'double' to 'GLclampf', possible loss of data
+C:\Users\razvan\Desktop\Solar System Simulator\GameEngine3D\GameEngine3D.h(273,28): warning C4244: 'argument': conversion from 'double' to 'GLclampf', possible loss of data
+C:\Users\razvan\Desktop\Solar System Simulator\GameEngine3D\GameEngine3D.h(273,21): warning C4244: 'argument': conversion from 'double' to 'GLclampf', possible loss of data
+C:\Users\razvan\Desktop\Solar System Simulator\GameEngine3D\GameEngine3D.h(273,16): warning C4244: 'argument': conversion from 'double' to 'GLclampf', possible loss of data
+C:\Users\razvan\Desktop\Solar System Simulator\GameEngine3D\GameEngine3D.h(1104,1): warning C4150: deletion of pointer to incomplete type 'Component'; no destructor called
+C:\Users\razvan\Desktop\Solar System Simulator\GameEngine3D\GameEngine3D.h(57): message : see declaration of 'Component'
+C:\Users\razvan\Desktop\Solar System Simulator\GameEngine3D\GameEngine3D.h(1573,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\razvan\Desktop\Solar System Simulator\GameEngine3D\GameEngine3D.h(1614,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\razvan\Desktop\Solar System Simulator\GameEngine3D\GameEngine3D.h(1621,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\razvan\Desktop\Solar System Simulator\GameEngine3D\GameEngine3D.h(1626,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\razvan\Desktop\Solar System Simulator\main.cpp(301,38): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\razvan\Desktop\Solar System Simulator\main.cpp(302,38): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Solar System Simulator.vcxproj -> C:\Users\razvan\Desktop\Solar System Simulator\Debug\Solar System Simulator.exe

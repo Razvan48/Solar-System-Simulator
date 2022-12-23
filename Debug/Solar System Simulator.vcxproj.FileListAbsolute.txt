@@ -1,0 +1,2 @@
+C:\Users\razvan\Desktop\Solar System Simulator\Debug\Solar System Simulator.exe
+C:\Users\razvan\Desktop\Solar System Simulator\Debug\Solar System Simulator.pdb
