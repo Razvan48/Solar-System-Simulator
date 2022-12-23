@@ -1,7 +1,7 @@
 # Solar-System-Simulator | _C++, OpenGL, Textures, Blender Models_
 
 &emsp; This application simulates the movement of planets and asteroids around the Sun. <br/>
-&emsp; Some models (like the asteroids or Saturn's rings) are made in Blender. <br/>
+&emsp; Some models (like the belts of asteroids or Saturn's rings) are made in Blender. <br/>
 &emsp; The camera cand move freely around. <br/>
 
 <p align = "center">
